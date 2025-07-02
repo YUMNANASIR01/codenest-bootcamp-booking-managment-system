@@ -6,7 +6,6 @@ import { Button } from "@/components/ui/button"
 
 // Import from constants file
 import { bookingData, months,daysOfWeek, getDaysInMonth,  getFirstDayOfMonth, hasDateBookings,getBookingsForDate,  getAvailableTimeSlots, type Booking} from "@/components/constant/booking-constants"
-
 // Calendar component for a single month
 const MonthCalendar = ({month, year, title, onDayClick,}: {
   month: number
